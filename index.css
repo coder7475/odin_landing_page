@@ -79,8 +79,50 @@
   border-radius: 10px;
 }
 
+/* random image section */
+.random-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 
+.random-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 500px;
+}
 
+.random-images div {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.random-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.text {
+  width: 70%;
+  text-align: center;
+  font-weight: 200;
+  margin-top: 4px;
+}
+
+.bimage {
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 20px;
+}
 
 
 
