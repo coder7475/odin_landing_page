@@ -151,4 +151,25 @@
   padding-bottom: 100px;
 }
 
+.registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 100px 0px;
+  background-color: #3882F6;
+  padding: 100px;
+  color: #E5E7EB;
+  gap: 100px;
+  border-radius: 8px;
+}
 
+.signup {
+  background-color: #3882F6;
+  color: #f9faf8;
+  width: 100px;
+  padding: 10px;
+  border: 2px solid white;
+  font-size: 18px;
+  font-weight: 600;
+}
